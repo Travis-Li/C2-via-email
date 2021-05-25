@@ -5,7 +5,7 @@ This project was done as a project for my CSE 363: Offensive Security course at 
 
 This project was inspired by [Gdog](https://github.com/maldevel/gdog).
 
-A demo video is provided in the repository, and also via [YouTube](https://www.youtube.com/watch?v=fnXHZ2OEm3Q).
+A demo video is provided via [YouTube](https://www.youtube.com/watch?v=fnXHZ2OEm3Q).
 
 ## How it works
 The server takes the command and creates a MIMEMultipart object which is an email accepted by smtplib. The body of the email is a JSON that contains the command name and arguments for the command. The body is then encrypted using the Crypto library's AES functionality and the email is sent to the known email address.
